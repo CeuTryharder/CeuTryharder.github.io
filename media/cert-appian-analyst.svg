@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" role="img" aria-label="Medalla de certificación Appian Certified Analyst">
+  <defs>
+    <linearGradient id="appian-bg" x1="40" y1="20" x2="260" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#17226B"/>
+      <stop offset="1" stop-color="#0B1033"/>
+    </linearGradient>
+    <linearGradient id="appian-accent" x1="30" y1="100" x2="270" y2="195" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2322F0"/>
+      <stop offset="1" stop-color="#1A19B8"/>
+    </linearGradient>
+  </defs>
+  <!-- Hexágono exterior -->
+  <path d="M150 12 L268 79 V221 L150 288 L32 221 V79 Z" fill="url(#appian-bg)" stroke="#2322F0" stroke-width="5"/>
+  <path d="M150 24 L257 85 V215 L150 276 L43 215 V85 Z" fill="none" stroke="#F4F1EB" stroke-opacity="0.35" stroke-width="2"/>
+  <!-- Cabecera superior con logotipo oficial de Appian -->
+  <g transform="translate(86, 48) scale(1.75)">
+    <path fill="#FFFFFF" d="M41.961 12.686c-.363.385-.462.896-.462 1.425v11.203h3.8V9.164zM41.5 3.868v5.984l3.8-4.03V3.868zm-1.916 7.45h-.003c-.086-3.41-1.327-4.742-4.635-4.742H27.7V32h3.705v-6.686c.613.009 2.307 0 3.541 0 3.308 0 4.549-1.39 4.635-4.8h.003c.002-.086.002-9.11 0-9.196m-5.98 10.799c-1.492.002-2.2.001-2.2-1.29v-9.822c0-1.29.708-1.292 2.2-1.29 1.418.003 2.201 0 2.201 1.29v9.822c0 1.291-.783 1.287-2.2 1.29m-7.872-10.799h-.003c-.087-3.41-1.328-4.742-4.635-4.742h-7.247V32h3.705v-6.686c.614.009 2.308 0 3.542 0 3.308 0 4.548-1.39 4.635-4.8h.003c.002-.086.002-9.11 0-9.196m-5.98 10.799c-1.492.002-2.2.001-2.2-1.29v-9.822c0-1.29.708-1.292 2.2-1.29 1.417.003 2.201 0 2.201 1.29v9.822c0 1.291-.784 1.287-2.2 1.29m49.462 3.197V11.042c0-1.291-.784-1.287-2.201-1.29-1.493-.002-2.2-.001-2.2 1.29v14.272h-3.766V6.576h7.307c3.308 0 4.549 1.369 4.635 4.779h.003c.002.086.005 13.96.005 13.96zM59.14 11.355c-.087-3.41-1.389-4.779-4.696-4.779h-4.9l.002 3.177 3.557-.001c1.417.002 2.2-.002 2.2 1.289v1.85c-.667-.01-2.276-.03-3.462-.03-3.308 0-4.549 1.368-4.635 4.778h-.003c-.002.085-.002 2.834 0 2.92h.003c.086 3.41 1.327 4.755 4.635 4.755h7.307zm-3.758 9.519c0 1.29-.707 1.292-2.2 1.29-1.417-.003-2.201 0-2.201-1.29v-3.548c0-1.29.784-1.287 2.2-1.29 1.494-.002 2.201 0 2.201 1.29zm-43.444-9.519c-.086-3.41-1.388-4.779-4.695-4.779H2.342l.003 3.177 3.557-.001c1.417.002 2.2-.002 2.2 1.289v1.85c-.668-.01-2.276-.03-3.463-.03-3.307 0-4.548 1.369-4.634 4.778H0c-.002.086-.002 2.835 0 2.922h.003c.082 3.214 1.173 4.603 4.086 4.753l3.013-3.184c-.307.033-.679.034-1.122.033-1.418-.002-2.201.001-2.201-1.29v-3.547c0-1.29.783-1.287 2.2-1.29 1.493-.002 2.2 0 2.2 1.29v7.988c.15-.002 3.767 0 3.767 0z"/>
+  </g>
+  <!-- Banda central -->
+  <path d="M18 118 H282 L272 178 H28 Z" fill="url(#appian-accent)" stroke="#F4F1EB" stroke-width="2.5"/>
+  <text x="150" y="143" text-anchor="middle" fill="#D9DFFF" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="3.2">CERTIFIED</text>
+  <text x="150" y="167" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800" letter-spacing="2">ANALYST</text>
+  <!-- Pie del emblema -->
+  <text x="150" y="212" text-anchor="middle" fill="#A9B4FF" font-family="monospace" font-size="13" font-weight="700" letter-spacing="2">ACA-100 · BPM</text>
+  <path d="M150 227 L154.2 238.5 L166.5 238.8 L156.7 246.2 L160.2 258 L150 251 L139.8 258 L143.3 246.2 L133.5 238.8 L145.8 238.5 Z" fill="#FFFFFF"/>
+</svg>

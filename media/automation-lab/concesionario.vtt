@@ -1,0 +1,49 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.000
+LAB-002 material de entrada y reglas antes de lanzar UiPath Studio
+
+2
+00:00:04.000 --> 00:00:07.500
+Material 1/3: lead_01.json (Lead Lucía Demo: coche familiar híbrido, 5 plazas, 30.000 EUR)
+
+3
+00:00:07.500 --> 00:00:11.000
+Material 2/3: lead_03.json (Lead Elena Demo: solicita familiares sin indicar presupuesto)
+
+4
+00:00:11.000 --> 00:00:14.500
+Material 3/3: lead_04.json (Lead Carlos Demo: híbrido 7 plazas con máximo 12.000 EUR)
+
+5
+00:00:14.500 --> 00:00:17.500
+UiPath Studio abierto (PID 37704) con LAB_002_Concesionario_E2E/Main.xaml
+
+6
+00:00:17.500 --> 00:00:19.300
+[1/3] UiPath Studio ejecuta Main.xaml sobre lead_01.json
+
+7
+00:00:19.300 --> 00:00:22.800
+lead_01.json: propuesta Horizon Family HEV (27.500 EUR) aprobada sin envío automático
+
+8
+00:00:22.800 --> 00:00:24.600
+[2/3] UiPath Studio ejecuta Main.xaml sobre lead_03.json
+
+9
+00:00:24.600 --> 00:00:28.100
+lead_03.json: sin presupuesto explícito -> derivado a NEEDS_REVIEW
+
+10
+00:00:28.100 --> 00:00:29.900
+[3/3] UiPath Studio ejecuta Main.xaml sobre lead_04.json
+
+11
+00:00:29.900 --> 00:00:33.400
+lead_04.json: ningún 7 plazas bajo 12.000 EUR -> derivado a NEEDS_REVIEW
+
+12
+00:00:33.400 --> 00:00:36.400
+LAB-002 completado en UiPath Studio: opportunities=1

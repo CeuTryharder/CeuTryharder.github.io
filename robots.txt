@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /tmp/
+Disallow: /local-media/
+Disallow: /test-results/
+Disallow: /playwright-report/
+Sitemap: https://ceutryharder.github.io/sitemap.xml

@@ -1,0 +1,49 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.000
+LAB-003 material de entrada y reglas antes de lanzar UiPath Studio
+
+2
+00:00:04.000 --> 00:00:07.500
+Material 1/3: ticket_01.json (Ticket VPN: error de autenticación con credenciales)
+
+3
+00:00:07.500 --> 00:00:11.000
+Material 2/3: ticket_03.json (Ticket Seguridad: solicitud de desbloqueo de cuentas)
+
+4
+00:00:11.000 --> 00:00:14.500
+Material 3/3: ticket_04.json (Ticket fuera de catálogo: migración contable ERP externo)
+
+5
+00:00:14.500 --> 00:00:17.500
+UiPath Studio abierto (PID 30624) con LAB_003_ServiceDesk_E2E/Main.xaml
+
+6
+00:00:17.500 --> 00:00:19.300
+[1/3] UiPath Studio ejecuta Main.xaml sobre ticket_01.json
+
+7
+00:00:19.300 --> 00:00:22.800
+ticket_01.json: recomendación VPN (KB-001) con bloqueo sensible -> APPROVED
+
+8
+00:00:22.800 --> 00:00:24.600
+[2/3] UiPath Studio ejecuta Main.xaml sobre ticket_03.json
+
+9
+00:00:24.600 --> 00:00:28.100
+ticket_03.json: desbloqueo automático bloqueado -> escalado a seguridad
+
+10
+00:00:28.100 --> 00:00:29.900
+[3/3] UiPath Studio ejecuta Main.xaml sobre ticket_04.json
+
+11
+00:00:29.900 --> 00:00:33.400
+ticket_04.json: sin fuentes en KB -> escalado L2 (NEEDS_REVIEW)
+
+12
+00:00:33.400 --> 00:00:36.400
+LAB-003 completado en UiPath Studio: tickets=3

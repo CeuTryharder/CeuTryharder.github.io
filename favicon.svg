@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Torii — Ignacio Cervera</title>
+  <rect width="64" height="64" rx="12" fill="#f4f1eb"/>
+  <g fill="#982f40">
+    <path d="M8 14c14 5 34 5 48 0l-2 8c-14 4-30 4-44 0z"/>
+    <path d="M18 23h7l-3 30h-8zm21 0h7l4 30h-8z"/>
+    <path d="M12 31h40v6H12zM30 23h4v8h-4z"/>
+  </g>
+</svg>

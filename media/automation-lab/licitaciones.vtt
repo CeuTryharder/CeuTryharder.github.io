@@ -1,0 +1,93 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.000
+Material de partida: 4 pliegos PDF en data/licitaciones/ y criterios de solvencia
+
+2
+00:00:04.000 --> 00:00:07.500
+Material 1/4: pliego_01_rpa_ayuntamiento.pdf (EXP-2026-001-AYTO) antes de lanzar UiPath Studio
+
+3
+00:00:07.500 --> 00:00:11.000
+Material 2/4: pliego_02_ens_alta_ministerio.pdf (EXP-2026-002-MIN) antes de lanzar UiPath Studio
+
+4
+00:00:11.000 --> 00:00:14.500
+Material 3/4: pliego_03_obra_civil_diputacion.pdf (EXP-2026-003-DIP) antes de lanzar UiPath Studio
+
+5
+00:00:14.500 --> 00:00:18.000
+Material 4/4: pliego_04_anomalia_importes.pdf (EXP-2026-004-AMB) antes de lanzar UiPath Studio
+
+6
+00:00:18.000 --> 00:00:21.000
+UiPath Studio abierto (PID 11108) con Main.xaml y Repositorio de Objetos
+
+7
+00:00:21.000 --> 00:00:22.200
+[1/4] UiPath Studio ejecuta Clic Limpiar Formulario en Portal Sector Público
+
+8
+00:00:22.200 --> 00:00:23.700
+[1/4] UiPath Studio escribe la ruta del pliego pliego_01_rpa_ayuntamiento.pdf
+
+9
+00:00:23.700 --> 00:00:24.900
+[1/4] UiPath Studio pulsa Analizar Pliego y Decidir -> lectura PCAP/PPT
+
+10
+00:00:24.900 --> 00:00:28.400
+Expediente EXP-2026-001-AYTO: cumple CPV, solvencia y ENS Media -> PRESENTAR_OFERTA
+
+11
+00:00:28.400 --> 00:00:29.600
+[2/4] UiPath Studio ejecuta Clic Limpiar Formulario en Portal Sector Público
+
+12
+00:00:29.600 --> 00:00:31.100
+[2/4] UiPath Studio escribe la ruta del pliego pliego_02_ens_alta_ministerio.pdf
+
+13
+00:00:31.100 --> 00:00:32.300
+[2/4] UiPath Studio pulsa Analizar Pliego y Decidir -> lectura PCAP/PPT
+
+14
+00:00:32.300 --> 00:00:35.800
+Expediente EXP-2026-002-MIN: falta ENS_ALTA y solvencia 1.8M -> NO_PRESENTAR
+
+15
+00:00:35.800 --> 00:00:37.000
+[3/4] UiPath Studio ejecuta Clic Limpiar Formulario en Portal Sector Público
+
+16
+00:00:37.000 --> 00:00:38.500
+[3/4] UiPath Studio escribe la ruta del pliego pliego_03_obra_civil_diputacion.pdf
+
+17
+00:00:38.500 --> 00:00:39.700
+[3/4] UiPath Studio pulsa Analizar Pliego y Decidir -> lectura PCAP/PPT
+
+18
+00:00:39.700 --> 00:00:43.200
+Expediente EXP-2026-003-DIP: CPV 45200000-9 obra civil fuera de alcance -> NO_PRESENTAR
+
+19
+00:00:43.200 --> 00:00:44.400
+[4/4] UiPath Studio ejecuta Clic Limpiar Formulario en Portal Sector Público
+
+20
+00:00:44.400 --> 00:00:45.900
+[4/4] UiPath Studio escribe la ruta del pliego pliego_04_anomalia_importes.pdf
+
+21
+00:00:45.900 --> 00:00:47.100
+[4/4] UiPath Studio pulsa Analizar Pliego y Decidir -> lectura PCAP/PPT
+
+22
+00:00:47.100 --> 00:00:50.600
+Expediente EXP-2026-004-AMB: Base+IVA != Total -> REVISION_JURIDICA
+
+23
+00:00:50.600 --> 00:00:53.600
+Ejecución UiPath Studio completada: runs=4, tenders=4

@@ -1,0 +1,9 @@
+# Escena del santuario
+
+Imagen original generada con la herramienta integrada imagegen el 12 de noviembre de 2026. Es una interpretación artística de un santuario japonés inspirada en Tokio; no documenta una ubicación real. No utiliza recursos de Scrolltide.
+
+Recursos publicados: `sanctuary-torii.webp` (1672 × 941, 256668 bytes) y `sanctuary-torii-small.webp` (1000 × 563, 91298 bytes). Exportación WebP mediante Sharp. La versión pequeña sirve el encuadre móvil.
+
+## Prompt utilizado
+
+Use case: photorealistic-natural. Create an original cinematic environment image for a premium personal portfolio website, landscape 16:9 high resolution. An intimate Japanese Shinto shrine approach inspired by Tokyo, after rain at blue hour. A magnificent vermilion wooden torii gate occupies the RIGHT HALF, centered around 72% horizontally, fully visible with elegant slightly curved dark lintel, substantial round weathered lacquered pillars, authentic joints, black stone footings. A few smaller torii recede naturally behind it along a wet irregular stone path into deep misty cedar forest. The LEFT 40% is dark quiet woodland negative space, almost black charcoal with subtle organic detail, suitable for white typography. Sophisticated photographic realism: tactile aged red lacquer wood grain, natural moss and foliage, restrained warm amber stone lantern illumination, wet stone reflecting a little warm light, subtle atmospheric haze separating layers. Eye-level architectural photography, 35mm lens, editorial color grade, deep jade shadows, muted vermilion and warm ivory highlights. Architectural details sharp and organic. Full-bleed scene, no frames, no text, no people, no UI, no logos, no watermarks, no giant moon, no Mount Fuji, no pagoda collage, no neon, no polygonal or flat vector rendering. Main gate must fit within image with breathing room above and right, top of gate at 18% image height, feet at 85%.

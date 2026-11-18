@@ -1,0 +1,49 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.000
+LAB-001 material de entrada y reglas antes de lanzar UiPath Studio
+
+2
+00:00:04.000 --> 00:00:07.500
+Material 1/3: factura_01.pdf (Factura digital PDF (texto seleccionable · NIF A87654321))
+
+3
+00:00:07.500 --> 00:00:11.000
+Material 2/3: factura_16.pdf (Factura escaneada como imagen (sin capa de texto digital))
+
+4
+00:00:11.000 --> 00:00:14.500
+Material 3/3: factura_26.pdf (Factura digital con anomalía aritmética deliberada)
+
+5
+00:00:14.500 --> 00:00:17.500
+UiPath Studio abierto (PID 35204) con LAB_001_Facturas_E2E/Main.xaml
+
+6
+00:00:17.500 --> 00:00:19.300
+[1/3] UiPath Studio ejecuta Main.xaml sobre factura_01.pdf
+
+7
+00:00:19.300 --> 00:00:22.800
+factura_01.pdf: texto digital validado y registrado en ERP SQLite (COMPLETED)
+
+8
+00:00:22.800 --> 00:00:24.600
+[2/3] UiPath Studio ejecuta Main.xaml sobre factura_16.pdf
+
+9
+00:00:24.600 --> 00:00:28.100
+factura_16.pdf: OCR local Windows (es-ES) extrae campos y registra en SQLite
+
+10
+00:00:28.100 --> 00:00:29.900
+[3/3] UiPath Studio ejecuta Main.xaml sobre factura_26.pdf
+
+11
+00:00:29.900 --> 00:00:33.400
+factura_26.pdf: anomalía detectada -> NEEDS_REVIEW / REJECTED por QA Finanzas
+
+12
+00:00:33.400 --> 00:00:36.400
+LAB-001 completado en UiPath Studio: invoices=2
